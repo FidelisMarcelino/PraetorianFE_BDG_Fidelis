@@ -1,0 +1,27 @@
+table th{
+    background-color: lightgreen;
+}
+
+table td{
+    color: blue;
+    background-color: lightyellow;
+}
+
+table th, table td{
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+img{
+    margin: 100px;
+    background-color: aqua;
+    padding: 10px;
+    height: 200px;
+    width: auto;
+}
+
+span{
+    text-decoration: underline;
+    font-weight: bolder;
+}
