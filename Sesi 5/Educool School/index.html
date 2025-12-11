@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Educool School</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Internal CSS -->
+    <style>
+      @keyframes pop {
+        0% {
+          transform: scale(0);
+        }
+
+        100% {
+          transform: scale(1);
+        }
+      }
+
+      .pop {
+        animation: pop 2s;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="flex ml-2 justify-between fixed top-0 w-full bg-white">
+      <div class="flex gap-12 m-2">
+        <p class="font-bold text-violet-700">Educool School</p>
+
+        <!-- Copy: Shift + Alt + Arrow Down -->
+        <a class="text-gray-700 font-semibold" href="#course">Courses</a>
+        <a class="text-gray-700 font-semibold" href="About.html">About Us</a>
+        <a class="text-gray-700 font-semibold" href="Contact.html">Contact Us</a>
+        <a class="text-gray-700 font-semibold" href="TodoList.html">Todo List</a>
+      </div>
+
+      <div class="flex gap-4 mr-4 m-2">
+        <button
+          class="text-gray-700 font-semibold p-1 rounded-sm hover:bg-violet-700 hover:text-white"
+        >
+          Login
+        </button>
+        <button
+          class="bg-violet-700 text-white p-1 font-semibold rounded-sm hover:bg-white hover:text-gray-700"
+        >
+          Follow Us
+        </button>
+      </div>
+    </div>
+
+    <!-- Body Page -->
+    <div class="flex items-center justify-center h-[80vh] mt-10">
+      <div class="w-[40%] p-4">
+        <p class="text-3xl font-bold">
+          New way to study online with the best education system
+        </p>
+
+        <button
+          class="bg-violet-700 text-white font-semibold rounded-sm p-1 mt-2"
+        >
+          Read more
+        </button>
+        <button
+          class="text-gray-700 p-1 border-1 rounded rounded-sm font-semibold"
+        >
+          Join Us
+        </button>
+      </div>
+
+      <div
+        class="w-100 bg-pink-300 rounded-md flex justify-center align-center ml-4"
+      >
+        <img class="pop" src="Img/Men.png" alt="" />
+      </div>
+    </div>
+
+    <!-- Grid = course page -->
+    <p class="text-4xl font-bold text-violet-700 mt-10 m-4 flex justify-center" id="course">Our Courses</p>
+
+    <div class="grid grid-cols-3 gap-2 m-4">
+      <!-- Grid 1 -->
+      <div class="bg-blue-200 rounded rounded-md">
+        <div class="bg-blue-300 p-2 rounded rounded-md">
+          <img
+            src="Img/English.jpg"
+            alt="English"
+            class="rounded rounded-md mb-2"
+          />
+
+          <p class="font-bold">English Academy Online</p>
+          <p>Kursus Bahasa Inggris online kurikulum....</p>
+        </div>
+
+        <div class="p-2">
+          <p>✅ 24x kelas bersama Native Master Teacher</p>
+          <p>✅ 24x kelas interaktif bersama Local Master Teacher</p>
+          <p>✅ Berkesempatan kelas interaktif dengan Native Master Teacher</p>
+        </div>
+
+        <div class="mt-4 p-2">
+          <hr class="border border-dashed" />
+
+          <p>Mulai dari</p>
+          <p>
+            <span class="text-red-700 font-bold">Rp 560.000</span>
+            <span class="text-sm">/bulan</span>
+          </p>
+        </div>
+
+        <div class="flex justify-center m-2">
+          <button
+            class="rounded rounded-xl bg-orange-600 p-2 font-bold text-white"
+          >
+            Lihat Paket Belajar
+          </button>
+        </div>
+      </div>
+
+      <!-- Grid 2 -->
+      <div class="bg-blue-200 rounded rounded-md">
+        <div class="bg-blue-300 p-2 rounded rounded-md">
+          <img
+            src="Img/English.jpg"
+            alt="English"
+            class="rounded rounded-md mb-2"
+          />
+
+          <p class="font-bold">English Academy Online</p>
+          <p>Kursus Bahasa Inggris online kurikulum....</p>
+        </div>
+
+        <div class="p-2">
+          <p>✅ 24x kelas bersama Native Master Teacher</p>
+          <p>✅ 24x kelas interaktif bersama Local Master Teacher</p>
+          <p>✅ Berkesempatan kelas interaktif dengan Native Master Teacher</p>
+        </div>
+
+        <div class="mt-4 p-2">
+          <hr class="border border-dashed" />
+
+          <p>Mulai dari</p>
+          <p>
+            <span class="text-red-700 font-bold">Rp 560.000</span>
+            <span class="text-sm">/bulan</span>
+          </p>
+        </div>
+
+        <div class="flex justify-center m-2">
+          <button
+            class="rounded rounded-xl bg-orange-600 p-2 font-bold text-white"
+          >
+            Lihat Paket Belajar
+          </button>
+        </div>
+      </div>
+
+      <!-- Grid 3 -->
+      <div class="bg-blue-200 rounded rounded-md">
+        <div class="bg-blue-300 p-2 rounded rounded-md">
+          <img
+            src="Img/English.jpg"
+            alt="English"
+            class="rounded rounded-md mb-2"
+          />
+
+          <p class="font-bold">English Academy Online</p>
+          <p>Kursus Bahasa Inggris online kurikulum....</p>
+        </div>
+
+        <div class="p-2">
+          <p>✅ 24x kelas bersama Native Master Teacher</p>
+          <p>✅ 24x kelas interaktif bersama Local Master Teacher</p>
+          <p>✅ Berkesempatan kelas interaktif dengan Native Master Teacher</p>
+        </div>
+
+        <div class="mt-4 p-2">
+          <hr class="border border-dashed" />
+
+          <p>Mulai dari</p>
+          <p>
+            <span class="text-red-700 font-bold">Rp 560.000</span>
+            <span class="text-sm">/bulan</span>
+          </p>
+        </div>
+
+        <div class="flex justify-center m-2">
+          <button
+            class="rounded rounded-xl bg-orange-600 p-2 font-bold text-white"
+          >
+            Lihat Paket Belajar
+          </button>
+        </div>
+      </div>
+
+      <!-- Grid 4 -->
+      <div class="bg-blue-200 rounded rounded-md mt-4">
+        <div class="bg-blue-300 p-2 rounded rounded-md">
+          <img
+            src="Img/English.jpg"
+            alt="English"
+            class="rounded rounded-md mb-2"
+          />
+
+          <p class="font-bold">English Academy Online</p>
+          <p>Kursus Bahasa Inggris online kurikulum....</p>
+        </div>
+
+        <div class="p-2">
+          <p>✅ 24x kelas bersama Native Master Teacher</p>
+          <p>✅ 24x kelas interaktif bersama Local Master Teacher</p>
+          <p>✅ Berkesempatan kelas interaktif dengan Native Master Teacher</p>
+        </div>
+
+        <div class="mt-4 p-2">
+          <hr class="border border-dashed" />
+
+          <p>Mulai dari</p>
+          <p>
+            <span class="text-red-700 font-bold">Rp 560.000</span>
+            <span class="text-sm">/bulan</span>
+          </p>
+        </div>
+
+        <div class="flex justify-center m-2">
+          <button
+            class="rounded rounded-xl bg-orange-600 p-2 font-bold text-white"
+          >
+            Lihat Paket Belajar
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
