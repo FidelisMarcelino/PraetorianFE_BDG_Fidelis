@@ -23,7 +23,7 @@ form.addEventListener("submit", async (e) => {
         price: Number(price),
         description,
         categoryId: 6,
-        image: [image],
+        images: [image],
     };
 
     const url = productId
